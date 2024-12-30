@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.7.9",
+    "copy-webpack-plugin": "^12.0.2",
+    "cra-template-typescript": "1.2.0",
+    "frontend": "file:",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "webpack-cli": "^6.0.1"
+  }
+}

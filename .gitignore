@@ -1,0 +1,127 @@
+# --- Spring Boot ---
+
+# Compiled Java classes
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Build and dependency directories
+target/
+build/
+.mvn/
+mvnw
+mvnw.cmd
+.idea/
+*.iml
+
+# Logs and temporary files
+*.log
+/logs/
+temp/
+tmp/
+
+# Application secrets (Keep these out of your repo!)
+**/application*.yml
+**/application*.yaml
+**/application*.properties
+
+# --- React ---
+
+# Node Modules
+node_modules/
+
+# Build output directory
+dist/
+build/
+
+# Debug log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test reports
+coverage/
+
+# Editor and IDE directories
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files (dotenv)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- General ---
+
+# Backup files
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.project
+.classpath
+.settings/
+
+# Ignore private or temporary files
+private/
+tmp/
+
+# Ignore cache directories
+.cache/
+
+# --- Specific to IDEs/Editors ---
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# --- Other Common Exclusions ---
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Public/Generated files, if they are not committed to source
+public/
